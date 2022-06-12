@@ -1,0 +1,16 @@
+Shopping cart Webapp using Vuejs, Vuetify, Vuex, Custom Component
+1. App.vue in this file add Navbar/Header section
+2. component > Navbar.vue adding Add to cart section and adding product list 
+3. Component > Card this single dynamic card auto fetch data
+4. Router > index to use route the pages
+5. Store > common (api service) this file using for api calling to create all, get, post, put, delete 
+6. Store > common (sessionService) this file using for api calling to create all, get, post, put, delete and save data in local-storage
+7. const > action to action all action on the product-list and product-details
+8. const > mutations to change the value
+9. modules > ecommerce fetching the product data and product details data and product details
+10. modules > index call ecommerce file and create data
+11. view > listItem is fetching data and show in ui card
+12. view > product details get by id fetching product details 
+13. view > cartItem component to add to cart page here is showing all add to cart data
+
+14. development.config.js file to use api link
